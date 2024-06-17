@@ -1,19 +1,16 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
   { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
+  { skill: "material UI" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -30,36 +27,23 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
-              <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+               改めまして、中前心と申します。
+              </p>
+              <br />
+              <p>
+               大学4年次にエンジニアの勉強を独学ではじめるも挫折。
+               <br />
+               大学卒業後、人々の役に立てるような働き方がしたいという思いから、
+              国家公務員試験を得て国税専門官として就職しました。
+              <br />
+              しかし、中々思うような働き方ができず、その後職業訓練校で建築を学んだりキャリアのことで色々悩んだ時期もありましたが、
+              人々の役に立てること、そして自分の性格を鑑み、興味を持って長く続けられるお仕事がしたいという原点に立ち返り、再びエンジニア職を目指して、2013年10月より勉強を開始しました。
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+             現在は、主にReact、TypeScriptを使った開発をしていますが、Next.js、Pythonなども学んでいて、幅広く知識を吸収したいと考えています。
             </p>
-            <br />
-            <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
-            </p>
-            <br />
-            <p>
-              I believe that you should{" "}
-              <span className="font-bold text-teal-500">
-                never stop growing
-              </span>{" "}
-              and that&#39;s what I strive to do, I have a passion for
-              technology and a desire to always push the limits of what is
-              possible. I am excited to see where my career takes me and am
-              always open to new opportunities. 🙂
-            </p>
+      
           </div>
           <div className="text-center md:w-1/2 md:text-left">
             <h1 className="text-2xl font-bold mb-6">My Skills</h1>
@@ -72,7 +56,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -86,7 +70,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
