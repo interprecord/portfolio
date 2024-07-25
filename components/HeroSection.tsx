@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="md:mt-2 md:w-3/5">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7l"> Profile</h1>
           <p className="text-lg mt-4 mb-6 md:text-2l">
-          中前　心（なかまえ　こころ）と申します。2013年10月から独学でプログラミングの勉強を始めました。現在は、Webエンジニアを目指して転職活動中です。
+          中前　心（なかまえ　こころ）と申します。2023年10月から独学でプログラミングの勉強を始めました。現在は、Webエンジニアを目指して転職活動中です。
           
           </p>
           <Link
