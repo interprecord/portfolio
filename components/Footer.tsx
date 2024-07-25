@@ -2,9 +2,12 @@ import React from "react"
 import {
   AiOutlineGithub,
   AiOutlineTwitter,
+  
   AiOutlineLinkedin,
   AiOutlineYoutube,
 } from "react-icons/ai"
+
+import { SiZenn } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -15,6 +18,12 @@ const Footer = () => {
           © 2023 Hosna Qasmei<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+        <a href="https://zenn.dev/interprecord" rel="noreferrer" target="_blank">
+            <SiZenn 
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
           <a href="https://github.com/interprecord" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
